@@ -14,7 +14,9 @@ cd ionic-Beacons
 instalar
 ```
 npm install
+ionic cordova plugin add cordova-plugin-ibeacon
+npm install --save @ionic-native/ibeacon
 ```
 
 
-### Saber no me acuerdo
+### Suerte!!
