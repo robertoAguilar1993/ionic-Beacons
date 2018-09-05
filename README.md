@@ -3,7 +3,7 @@
 ### Levantar proyecto
 Descargar el proyecto
 ```
-git clone https://github.com/robertoAguilar1993/Ionic-beto.git
+git clone https://github.com/robertoAguilar1993/ionic-Beacons.git
 ```
 
 Entrar a la carpeta.
