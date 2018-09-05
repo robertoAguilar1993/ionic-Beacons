@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-ibeacon@^3.7.0",
+  "_id": "cordova-plugin-ibeacon@3.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-eX+VbNfCjlV5zfat9kByMX2W5jdueYZdqW7dR1QMwnIPkWVgIZEbENRgI7zndvNTdKdJT9EgoRYkhxlTo5Ktuw==",
+  "_location": "/cordova-plugin-ibeacon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-ibeacon@^3.7.0",
+    "name": "cordova-plugin-ibeacon",
+    "escapedName": "cordova-plugin-ibeacon",
+    "rawSpec": "^3.7.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.7.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ibeacon/-/cordova-plugin-ibeacon-3.7.0.tgz",
+  "_shasum": "fef664374b8db1adfe8300c73caf6ef7e29b6f8b",
+  "_spec": "cordova-plugin-ibeacon@^3.7.0",
+  "_where": "/Users/apple/Documents/workspaceCurso/Beacon/ionic-beacon-starter",
+  "author": {
+    "name": "Peter Metz",
+    "email": "peter.metz@unarin.com",
+    "url": "Somogyvari"
+  },
+  "bugs": {
+    "url": "https://github.com/petermetz/cordova-plugin-ibeacon/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-ibeacon",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)",
+  "homepage": "https://github.com/petermetz/cordova-plugin-ibeacon",
+  "keywords": [
+    "cordova",
+    "ibeacon",
+    "beacon",
+    "bluetooth",
+    "le",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-ibeacon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git"
+  },
+  "version": "3.7.0"
+}

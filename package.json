@@ -19,9 +19,12 @@
     "@angular/platform-browser": "2.2.1",
     "@angular/platform-browser-dynamic": "2.2.1",
     "@angular/platform-server": "2.2.1",
+    "@ionic-native/core": "^3.6.1",
+    "@ionic-native/ibeacon": "^4.12.2",
     "@ionic/storage": "1.1.7",
     "cordova-android": "7.0.0",
     "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-ibeacon": "^3.7.0",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
     "cordova-plugin-ionic-webview": "^2.1.1",
     "cordova-plugin-splashscreen": "^5.0.2",
@@ -62,7 +65,8 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "com.unarin.cordova.beacon": {}
     },
     "platforms": [
       "android"

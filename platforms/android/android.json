@@ -23,6 +23,10 @@
             {
               "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"LocationManager\"><param name=\"android-package\" value=\"com.unarin.cordova.beacon.LocationManager\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -48,6 +52,16 @@
             }
           ]
         }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
+              "count": 1
+            }
+          ]
+        }
       }
     }
   },
@@ -68,6 +82,9 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "com.unarin.cordova.beacon": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -112,6 +129,56 @@
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "id": "com.unarin.cordova.beacon.underscorejs",
+      "file": "plugins/com.unarin.cordova.beacon/www/lib/underscore-min-1.6.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.Q",
+      "file": "plugins/com.unarin.cordova.beacon/www/lib/q.min.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.LocationManager",
+      "file": "plugins/com.unarin.cordova.beacon/www/LocationManager.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "merges": [
+        "cordova.plugins"
+      ]
+    },
+    {
+      "id": "com.unarin.cordova.beacon.Delegate",
+      "file": "plugins/com.unarin.cordova.beacon/www/Delegate.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.Region",
+      "file": "plugins/com.unarin.cordova.beacon/www/model/Region.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.Regions",
+      "file": "plugins/com.unarin.cordova.beacon/www/Regions.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.CircularRegion",
+      "file": "plugins/com.unarin.cordova.beacon/www/model/CircularRegion.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
+    },
+    {
+      "id": "com.unarin.cordova.beacon.BeaconRegion",
+      "file": "plugins/com.unarin.cordova.beacon/www/model/BeaconRegion.js",
+      "pluginId": "com.unarin.cordova.beacon",
+      "runs": true
     }
   ],
   "plugin_metadata": {
@@ -120,6 +187,7 @@
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-ionic-webview": "2.1.1",
-    "cordova-plugin-ionic-keyboard": "2.1.2"
+    "cordova-plugin-ionic-keyboard": "2.1.2",
+    "com.unarin.cordova.beacon": "3.7.0"
   }
 }

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/Documents/workspaceCurso/Beacon/ionic-beacon-starter/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/25a97770e615acc06b06da755190a9e9/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
