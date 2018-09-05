@@ -1,0 +1,8 @@
+{
+  "name": "beacon-starter",
+  "integrations": {
+    "cordova": {}
+  },
+  "v2": true,
+  "typescript": true
+}
